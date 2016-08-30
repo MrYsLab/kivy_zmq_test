@@ -19,3 +19,6 @@ Fourth: Click on the "Left Encoder button"
 The monitor should output the following message:
 
 PUB TOPIC: I am a topic PAYLOAD: I am a payload
+
+ALL THREE COMPONONENTS USE THE ADDRESS OF THE HOST COMPUTER. If building an APK, hardcode the IP address of that the hub reports into main.py `__init__()`
+. The router_address paramenter should be chnaged from None to that address.
