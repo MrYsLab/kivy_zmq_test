@@ -6,7 +6,8 @@ To run this project:
 
 1. Go to kivy_zmq_test/xibotics/utils and start hub.py
 
-The hub is a [zmq forwarder](http://learning-0mq-with-pyzmq.readthedocs.io/en/latest/pyzmq/devices/forwarder.html) 
+The hub is a [zmq forwarder](http://learning-0mq-with-pyzmq.readthedocs.io/en/latest/pyzmq/devices/forwarder.html)
+ 
 2. In another terminal window, start monitor.py
 
 This will display all messages on the zmq network
